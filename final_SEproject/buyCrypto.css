@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background: url("bg.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px; color: #fff;
+    /*text-shadow: 2px 2px 2px #14be6f;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  #confirmBuy {
+    width: 30%; height: 40px;
+    background: #14be6f;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    color: black;
+  }
+
+  input {
+    font-size: 18px;
+    border: 1px solid #ccc;
+    width:  100px; height: 25px
+  }
+
+  select{
+    font-size: 18px;
+    border: 1px solid #ccc;
+    width:  200px; height: 30px
+    
+  }
+  
+  .home{
+    margin-top: 100px;
+  }
+
+  

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+body::before {
+  content: "";
+  position: absolute; z-index: 1;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.login {position: relative; z-index: 2;}
+.login h1 {
+  font-size: 32px; color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.int {
+  width: 400px; position: relative;
+  margin-top: 20px;
+}
+.int:first-child {margin-top: 0;}
+.int input {
+  width: 100%;
+  padding: 20px 10px 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 18px; color: #fff;
+  outline: none;
+}
+.int label {
+  position: absolute; left: 10px; top: 15px;
+  font-size: 18px; color: #999;
+  transition: all .5s ease;
+}
+.int input:focus + label,
+.int input:valid + label {
+  top: -2px;
+  font-size: 13px; color: #14be6f;
+}
+
+.btn {margin-top: 30px;}
+.btn button {
+  width: 100%; height: 50px;
+  background: #14be6f;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+}
+
+.caption {
+  margin-top: 20px;
+  text-align: center;
+}
+.caption a {
+  font-size: 15px; color: #fff;
+  text-decoration: none;
+}
+
+.signup {position: relative; z-index: 2;}
+.signup h1 {
+  font-size: 32px; color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.int {
+  width: 400px; position: relative;
+  margin-top: 20px;
+}
+.int:first-child {margin-top: 0;}
+.int input {
+  width: 100%;
+  padding: 20px 10px 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 18px; color: #fff;
+  outline: none;
+}
+.int label {
+  position: absolute; left: 10px; top: 15px;
+  font-size: 18px; color: #999;
+  transition: all .5s ease;
+}
+.int input:focus + label,
+.int input:valid + label {
+  top: -2px;
+  font-size: 13px; color: #14be6f;
+}
+
+.btn {margin-top: 30px;}
+.btn button {
+  width: 100%; height: 50px;
+  background: #14be6f;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+}
+
+.caption {
+  margin-top: 20px;
+  text-align: center;
+}
+.caption a {
+  font-size: 15px; color: #fff;
+  text-decoration: none;
+}
+
+.success {position: relative; z-index: 2;}
+.success h1 {
+  font-size: 25px; color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.des {
+  margin-top: 10px;
+  text-align: center;
+}
+.des a {
+  font-size: 20px; color: #fff;
+  text-decoration: none;
+}
+
+.successbtn {margin-top: 10px;}
+.successbtn button {
+  position: relative; z-index: 2;
+  width: 200px; height: 40px;
+  background-color: #14be6f;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 100px;
+  margin-right: -100px;
+  margin-bottom: 20px;
+}
+
+.tradingview-widget-container-bottom {
+  position: relative; z-index: 2;
+  bottom: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tradingview-widget-container-top {
+  position: relative; z-index: 2;
+  bottom: 300px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.tradingview-widget-container-mid {
+  position: relative; z-index: 2;
+  bottom: 10px;
+  height: 300%;
+  width: 200%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.tradingview-widget-container {
+  position: relative;
+}
+
+.tradingview-widget-container:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 34px;
+  
+}
+.radiobtn{
+    margin-top:20px;
+}
+.radiobtn, label{
+   color:white;
+   
+}

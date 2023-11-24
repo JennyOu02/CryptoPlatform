@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background: url("bg.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    font-size: 20px; color: #fff;
+    background-size: cover;
+}
+
+.admin h1 {
+    font-size: 32px; color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+.professor h1 {
+  font-size: 32px; color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+button {
+  width: 80%; height: 30px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+tr, td {
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #14be6f;
+  padding: 25px;
+}
+
+tr,td:hover { background-color: #72ad92; cursor: pointer; }
